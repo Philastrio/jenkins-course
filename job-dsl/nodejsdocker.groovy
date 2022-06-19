@@ -16,7 +16,7 @@ job('NodeJS Docker example') {
         dockerBuildAndPublish {
             repositoryName('philastrio/docker-nodejs-demo')
             tag('${GIT_REVISION,length=9}')
-            registryCredentials('philastrio')
+            registryCredentials('6b43f31e-6618-43ae-8736-9bc73f991559')
             forcePull(false)
             forceTag(false)
             createFingerprints(false)
